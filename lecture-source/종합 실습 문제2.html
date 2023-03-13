@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>종합 실습 문제2</title>
+</head>
+<body>
+    <fieldset>
+        <legend>납품자 정보</legend>
+        <br>
+        <br>
+        <label>1. 납품자명 :</label>
+        <input for="search" name="searchText" placeholder="name">
+        <br><br>
+        <label>2. email :</label>
+        <input for="search" name="searchText" placeholder="asdasdasf@naver.com">
+        <br><br>
+        <label>홈페이지 :</label>
+        <input for="search" name="searchText" placeholder="http://">
+        <br>
+        <br>
+    </fieldset>
+
+    <form>
+        <fieldset>
+            <legend>납품 정보</legend>
+            <br>
+    
+            <li> 상품명 :
+            <input for="search" name="searchText">
+             </li><br><br>
+            <li>납품수량 :
+            <input type="number" name="amount" min="100"  placeholder="최소 100">
+            <br>
+            <br></li>
+            <li> 납품등급 :
+            <input type="range" name="point" min="0" max="100" value="50" step="10">
+            <br><br></li>
+            <li> 기타사항 :
+             <textarea cols="20" rows="2" style="resize: name;" name="content"></textarea>
+                <br><br></li>
+            </ul>
+    </form>
+</fieldset>
+
+    <form>
+        <br>
+        <input type="submit" value="sendmessage">
+    </form>
+</body>
+</html>
